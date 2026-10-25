@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Hash Farm">
+  <defs>
+    <linearGradient id="hfCu" gradientUnits="userSpaceOnUse" x1="110" y1="190" x2="400" y2="400">
+      <stop offset="0" stop-color="#F6A35C"/>
+      <stop offset="1" stop-color="#C9602A"/>
+    </linearGradient>
+    <linearGradient id="hfLf" gradientUnits="userSpaceOnUse" x1="200" y1="170" x2="420" y2="70">
+      <stop offset="0" stop-color="#3FB57E"/>
+      <stop offset="1" stop-color="#7BE3AE"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#11161B"/>
+  <path d="M100 424 H412" stroke="#2A333C" stroke-width="14" stroke-linecap="round"/>
+  <g stroke="url(#hfCu)" stroke-width="40" stroke-linecap="round">
+    <path d="M218 200 L194 392"/>
+    <path d="M330 200 L306 392"/>
+    <path d="M132 262 H394"/>
+    <path d="M118 340 H380"/>
+  </g>
+  <g fill="url(#hfLf)">
+    <path d="M330 200 C330 170 334 146 346 122" fill="none" stroke="#5BD69A" stroke-width="12" stroke-linecap="round"/>
+    <path d="M344 128 C354 92 388 74 422 82 C414 116 382 136 344 128 Z"/>
+    <path d="M334 156 C324 134 302 124 284 130 C292 152 312 162 334 156 Z"/>
+    <path d="M218 200 C218 182 216 168 210 154" fill="none" stroke="#5BD69A" stroke-width="10" stroke-linecap="round"/>
+    <path d="M212 160 C204 134 180 122 156 128 C162 152 186 164 212 160 Z"/>
+  </g>
+  <circle cx="256" cy="424" r="16" fill="#F3BA2F"/>
+</svg>

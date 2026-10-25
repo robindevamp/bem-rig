@@ -1,6 +1,6 @@
-# BEM Rig
+# Hash Farm
 
-Web app for the BEM Rig vault on [Flap](https://flap.sh) (BNB Chain).
+Web app for the Hash Farm vault on [Flap](https://flap.sh) (BNB Chain).
 
 Burn the token to buy rigs. BNB tax is swapped to $BEM on PancakeSwap V3 and streamed over 7 days to every wallet running 5+ rigs.
 

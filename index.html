@@ -1,7 +1,7 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BEM Rig</title>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hash Farm</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="BEM Rig: burn the token to buy rigs; BNB tax is swapped to $BEM and streamed to rig holders over 7 days.">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='112' fill='%2311161B'/%3E%3Cpath d='M256 70 L417 163 L417 349 L256 442 L95 349 L95 163 Z' fill='none' stroke='%23E8863A' stroke-width='26' stroke-linejoin='round'/%3E%3Cg transform='translate(256 248)' fill='%23E8863A'%3E%3Cpath d='M0 -14 C18 -70 70 -96 104 -78 C78 -52 44 -26 10 -8 Z'/%3E%3Cpath d='M0 -14 C18 -70 70 -96 104 -78 C78 -52 44 -26 10 -8 Z' transform='rotate(120)'/%3E%3Cpath d='M0 -14 C18 -70 70 -96 104 -78 C78 -52 44 -26 10 -8 Z' transform='rotate(240)'/%3E%3C/g%3E%3Cpath d='M256 370 C246 384 240 394 240 404 a16 16 0 0 0 32 0 C272 394 266 384 256 370 Z' fill='%23F3BA2F'/%3E%3C/svg%3E">
+<meta name="description" content="Hash Farm: burn the token to buy rigs; BNB tax is swapped to $BEM and streamed to rig holders over 7 days.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='112' fill='%2311161B'/%3E%3Cg stroke='%23E8863A' stroke-width='44' stroke-linecap='round'%3E%3Cpath d='M218 200 L194 392'/%3E%3Cpath d='M330 200 L306 392'/%3E%3Cpath d='M132 262 H394'/%3E%3Cpath d='M118 340 H380'/%3E%3C/g%3E%3Cpath d='M330 200 C330 170 334 146 346 122' fill='none' stroke='%235BD69A' stroke-width='14' stroke-linecap='round'/%3E%3Cpath d='M344 128 C354 92 388 74 422 82 C414 116 382 136 344 128 Z' fill='%235BD69A'/%3E%3Cpath d='M218 200 C218 182 216 168 210 154' fill='none' stroke='%235BD69A' stroke-width='12' stroke-linecap='round'/%3E%3Cpath d='M212 160 C204 134 180 122 156 128 C162 152 186 164 212 160 Z' fill='%235BD69A'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Noto+Sans+SC:wght@400;700&display=swap">
@@ -206,9 +206,9 @@ footer .wrap{display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap}
 </head><body>
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="#top" aria-label="BEM Rig">
+    <a class="brand" href="#top" aria-label="Hash Farm">
       <svg viewBox="0 0 512 512" aria-hidden="true"><use href="#logo"/></svg>
-      <b>BEM <span>RIG</span></b>
+      <b>HASH <span>FARM</span></b>
     </a>
     <nav class="nav" aria-label="Sections">
       <a href="#flow" data-i18n="nav.flow">How it works</a>
@@ -226,16 +226,16 @@ footer .wrap{display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap}
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
     <linearGradient id="cuG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6A35C"/><stop offset="1" stop-color="#C9602A"/></linearGradient>
+    <linearGradient id="hfCu" gradientUnits="userSpaceOnUse" x1="110" y1="190" x2="400" y2="400"><stop offset="0" stop-color="#F6A35C"/><stop offset="1" stop-color="#C9602A"/></linearGradient>
+    <linearGradient id="hfLf" gradientUnits="userSpaceOnUse" x1="200" y1="170" x2="420" y2="70"><stop offset="0" stop-color="#3FB57E"/><stop offset="1" stop-color="#7BE3AE"/></linearGradient>
     <symbol id="logo" viewBox="0 0 512 512">
       <rect width="512" height="512" rx="112" fill="#11161B"/>
-      <path d="M256 70 L417 163 L417 349 L256 442 L95 349 L95 163 Z" fill="none" stroke="url(#cuG)" stroke-width="26" stroke-linejoin="round"/>
-      <g transform="translate(256 248)" fill="url(#cuG)">
-        <path d="M0 -14 C18 -70 70 -96 104 -78 C78 -52 44 -26 10 -8 Z"/>
-        <path d="M0 -14 C18 -70 70 -96 104 -78 C78 -52 44 -26 10 -8 Z" transform="rotate(120)"/>
-        <path d="M0 -14 C18 -70 70 -96 104 -78 C78 -52 44 -26 10 -8 Z" transform="rotate(240)"/>
-        <circle r="26" fill="#11161B" stroke="url(#cuG)" stroke-width="12"/>
-      </g>
-      <path d="M256 370 C246 384 240 394 240 404 a16 16 0 0 0 32 0 C272 394 266 384 256 370 Z" fill="#F3BA2F"/>
+      <path d="M100 424 H412" stroke="#2A333C" stroke-width="14" stroke-linecap="round"/>
+      <g stroke="url(#hfCu)" stroke-width="40" stroke-linecap="round"><path d="M218 200 L194 392"/><path d="M330 200 L306 392"/><path d="M132 262 H394"/><path d="M118 340 H380"/></g>
+      <path d="M330 200 C330 170 334 146 346 122" fill="none" stroke="#5BD69A" stroke-width="12" stroke-linecap="round"/>
+      <path d="M218 200 C218 182 216 168 210 154" fill="none" stroke="#5BD69A" stroke-width="10" stroke-linecap="round"/>
+      <g fill="url(#hfLf)"><path d="M344 128 C354 92 388 74 422 82 C414 116 382 136 344 128 Z"/><path d="M334 156 C324 134 302 124 284 130 C292 152 312 162 334 156 Z"/><path d="M212 160 C204 134 180 122 156 128 C162 152 186 164 212 160 Z"/></g>
+      <circle cx="256" cy="424" r="16" fill="#F3BA2F"/>
     </symbol>
     <symbol id="rigIcon" viewBox="0 0 56 56">
       <rect x="3" y="3" width="50" height="50" rx="9" fill="#1B232B" stroke="#3A444E" stroke-width="2"/>
@@ -251,7 +251,7 @@ footer .wrap{display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap}
         <div>
           <div class="eyebrow" data-i18n="hero.eyebrow">BEM mining vault on Flap · BNB Chain</div>
           <h1 data-i18n-html="hero.h1">Burn token.<br><em>Run rigs.</em><br>Mine <span class="bem">BEM</span>.</h1>
-          <p class="lede" data-i18n="hero.lede">Every trade of the token pays BNB tax. The BEM Rig vault swaps that BNB into $BEM on PancakeSwap and streams it over 7 days to every wallet running 5 rigs or more.</p>
+          <p class="lede" data-i18n="hero.lede">Every trade of the token pays BNB tax. The Hash Farm vault swaps that BNB into $BEM on PancakeSwap and streams it over 7 days to every wallet running 5 rigs or more.</p>
           <div class="official" id="officialBox" aria-live="polite">
             <div class="off-head"><span class="badge" data-i18n="ca.label">Official CA</span><span class="off-state" id="caState" data-i18n="ca.searching">Looking for the official token…</span></div>
             <div class="addr" id="caRow" hidden>
@@ -266,13 +266,13 @@ footer .wrap{display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap}
             <a class="btn ghost" href="#flow" data-i18n="hero.how">See how it works</a>
           </div>
         </div>
-        <svg class="rigart" viewBox="0 0 520 440" role="img" aria-label="BEM Rig miner running, BEM dripping into the tray">
+        <svg class="rigart" viewBox="0 0 520 440" role="img" aria-label="Hash Farm miner running, BEM dripping into the tray">
           <defs>
             <linearGradient id="caseG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#202932"/><stop offset="1" stop-color="#151B21"/></linearGradient>
           </defs>
           <rect x="40" y="40" width="440" height="250" rx="22" fill="url(#caseG)" stroke="#2F3A44" stroke-width="2"/>
           <rect x="40" y="40" width="440" height="34" rx="22" fill="#1B232B"/>
-          <text x="66" y="63" fill="#8E9AA6" font-family="JetBrains Mono, monospace" font-size="13" font-weight="600">BEM-RIG · HASH 0x01</text>
+          <text x="66" y="63" fill="#8E9AA6" font-family="JetBrains Mono, monospace" font-size="13" font-weight="600">HASH FARM · RIG 0x01</text>
           <circle cx="436" cy="57" r="5" fill="#5BD69A"><animate attributeName="opacity" values="1;.3;1" dur="1.4s" repeatCount="indefinite"/></circle>
           <circle cx="454" cy="57" r="5" fill="#E8863A"><animate attributeName="opacity" values=".3;1;.3" dur="1.1s" repeatCount="indefinite"/></circle>
           <g transform="translate(140 182)">
@@ -324,7 +324,7 @@ footer .wrap{display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap}
           <button class="btn sm" id="playBtn" type="button" aria-pressed="true"></button>
         </div>
         <div class="board">
-          <svg id="flowSvg" viewBox="0 0 1000 430" role="img" aria-label="BEM Rig money flow">
+          <svg id="flowSvg" viewBox="0 0 1000 430" role="img" aria-label="Hash Farm money flow">
             <g>
               <path id="w-trade" class="wire" d="M200 95 H405"/>
               <path id="w-swapin" class="wire" d="M595 95 H800"/>
@@ -426,7 +426,7 @@ footer .wrap{display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap}
       <div class="guide">
         <div class="g"><h3 data-i18n="g1.t">Get a wallet</h3><p data-i18n="g1.d">Use MetaMask, OKX, Binance Wallet or any compatible wallet. Switch to BNB Smart Chain and keep a little BNB for gas.</p></div>
         <div class="g"><h3 data-i18n="g2.t">Buy the token</h3><p data-i18n="g2.d">Buy the official token on Flap using the Official CA above. Every buy and sell pays BNB tax into the vault, which is where all BEM comes from.</p></div>
-        <div class="g"><h3 data-i18n="g3.t">Connect</h3><p data-i18n="g3.d">Tap Connect wallet at the top. BEM Rig reads your token balance, your rigs and your pending BEM.</p></div>
+        <div class="g"><h3 data-i18n="g3.t">Connect</h3><p data-i18n="g3.d">Tap Connect wallet at the top. Hash Farm reads your token balance, your rigs and your pending BEM.</p></div>
         <div class="g"><h3 data-i18n="g4.t">Buy 5+ rigs</h3><p data-i18n="g4.d">Pick a number and tap Burn token &amp; buy rigs. The first time, your wallet asks you to approve the token. At 5 rigs they start spinning.</p></div>
         <div class="g"><h3 data-i18n="g5.t">Watch BEM flow</h3><p data-i18n="g5.d">Pending BEM grows every second. When new tax arrives, anyone can tap Harvest to swap it into BEM and top up the pool.</p></div>
         <div class="g"><h3 data-i18n="g6.t">Claim</h3><p data-i18n="g6.d">Tap Claim BEM whenever you like. Your rigs keep mining after you claim.</p></div>
@@ -444,7 +444,7 @@ footer .wrap{display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap}
 
 <footer>
   <div class="wrap">
-    <div><strong style="color:var(--fg)">BEM Rig</strong> · BNB Chain</div>
+    <div><strong style="color:var(--fg)">Hash Farm</strong> · BNB Chain</div>
     <div style="max-width:60ch" data-i18n="footer">The contracts have not been audited. BEM and the token can lose value fast. Nothing here is investment advice.</div>
   </div>
 </footer>
@@ -468,9 +468,9 @@ const CFG = {
   vaultPortal: "0x90497450f2a706f1951b5bdda52B4E5d16f34C06",
   factoryDeployBlock: 129647596,
   // SHA-256 of the lowercase dev wallet address. The address itself is never stored or shown.
-  devHash: "4ced79a1d5c549a855045c06e0d76c72880db26a711bab669f65d2c80c064511",
+  devHash: "989bd97d9d38df0af32f6e9dee3deb4ad63acaabc15b3c6890b7c97b9c6c97f2",
   // Optional: paste the official CA here to skip on-chain detection.
-  officialToken: "0xac7848a63d95c1e93c95f5e4f64931cea17b7777",
+  officialToken: "",
   rpcs: ["https://bsc-rpc.publicnode.com","https://bsc-dataseed.bnbchain.org","https://bsc-dataseed1.defibit.io"],
   bemDecimals: 8, tokenDecimals: 18
 };
@@ -484,9 +484,9 @@ en:{
  "nav.flow":"How it works","nav.bay":"My rigs","nav.guide":"Guide",
  "hero.eyebrow":"BEM mining vault on Flap · BNB Chain",
  "hero.h1":"Burn token.<br><em>Run rigs.</em><br>Mine <span class=\"bem\">BEM</span>.",
- "hero.lede":"Every trade of the token pays BNB tax. The BEM Rig vault swaps that BNB into $BEM on PancakeSwap and streams it over 7 days to every wallet running 5 rigs or more.",
+ "hero.lede":"Every trade of the token pays BNB tax. The Hash Farm vault swaps that BNB into $BEM on PancakeSwap and streams it over 7 days to every wallet running 5 rigs or more.",
  "hero.connect":"Connect wallet to see your rigs","hero.mine":"View my rigs","hero.how":"See how it works",
- "ca.label":"Official CA","ca.searching":"Looking for the official token…","ca.found":"Verified on-chain: launched by the BEM Rig team through the BEM Rig factory",
+ "ca.label":"Official CA","ca.searching":"Looking for the official token…","ca.found":"Verified on-chain: launched by the Hash Farm team through the Hash Farm factory",
  "ca.none":"Not launched yet. The official CA appears here as soon as the token is created.","ca.copy":"Copy","ca.flap":"Trade on Flap ↗",
  "tele.total":"Total rigs","tele.mining":"Rigs mining","tele.perday":"BEM mined / day","tele.pending":"Tax BNB waiting",
  "mode.live":"Live data · BNB Chain","mode.demo":"Sample data","hint.demo":"Showing sample numbers until the official token is live.","hint.live":"Vault {v} · token {s}","hint.err":"Could not read the vault yet ({e}). Showing sample numbers.",
@@ -518,7 +518,7 @@ en:{
  "guide.eyebrow":"Guide","guide.h2":"Start mining in 6 steps",
  "g1.t":"Get a wallet","g1.d":"Use MetaMask, OKX, Binance Wallet or any compatible wallet. Switch to BNB Smart Chain and keep a little BNB for gas.",
  "g2.t":"Buy the token","g2.d":"Buy the official token on Flap using the Official CA above. Every buy and sell pays BNB tax into the vault, which is where all BEM comes from.",
- "g3.t":"Connect","g3.d":"Tap Connect wallet at the top. BEM Rig reads your token balance, your rigs and your pending BEM.",
+ "g3.t":"Connect","g3.d":"Tap Connect wallet at the top. Hash Farm reads your token balance, your rigs and your pending BEM.",
  "g4.t":"Buy 5+ rigs","g4.d":"Pick a number and tap Burn token & buy rigs. The first time, your wallet asks you to approve the token. At 5 rigs they start spinning.",
  "g5.t":"Watch BEM flow","g5.d":"Pending BEM grows every second. When new tax arrives, anyone can tap Harvest to swap it into BEM and top up the pool.",
  "g6.t":"Claim","g6.d":"Tap Claim BEM whenever you like. Your rigs keep mining after you claim.",
@@ -532,7 +532,7 @@ en:{
  "acct.connect":"Connect wallet","acct.disconnect":"Disconnect","acct.wrong":"Wrong network","acct.switch":"Switch to BNB Chain",
  "t.connected":"Connected to {w}","t.rejected":"You rejected the connection.","t.noAccount":"The wallet did not share an account.","t.fail":"Could not connect: {e}","t.disconnected":"Wallet disconnected.",
  "t.copied":"Copied","t.selected":"Selected, press Ctrl+C","t.noSwitch":"Could not switch network.","t.txRejected":"You rejected the transaction.",
- "t.bought":"Bought {n} rigs","t.claimed":"BEM claimed","t.harvested":"Tax BNB swapped into BEM","t.notOurs":"Note: this vault is not from the BEM Rig factory.","t.lowBal":"Not enough {s}: need ≈ {q}",
+ "t.bought":"Bought {n} rigs","t.claimed":"BEM claimed","t.harvested":"Tax BNB swapped into BEM","t.notOurs":"Note: this vault is not from the Hash Farm factory.","t.lowBal":"Not enough {s}: need ≈ {q}",
  "tx.wait":"{l}: confirm in your wallet…","tx.sent":"{l}: sent {h}, waiting for confirmation…","tx.ok":"{l}: confirmed ✓","tx.revert":"{l} reverted","tx.timeout":"{l}: still pending, check BscScan","tx.err":"Error: {e}",
  "l.approve":"Approve {s}","l.buy":"Buy {n} rigs","l.claim":"Claim BEM","l.harvest":"Harvest",
  "e.Paused":"Paused","e.Cooldown":"Harvest is cooling down, try again in a few blocks","e.Nothing to swap":"No tax BNB to swap yet","e.Slippage":"Price moved too much, try again",
@@ -543,9 +543,9 @@ zh:{
  "nav.flow":"运作方式","nav.bay":"我的矿机","nav.guide":"教程",
  "hero.eyebrow":"Flap 上的 BEM 挖矿金库 · BNB Chain",
  "hero.h1":"销毁代币<br><em>启动矿机</em><br>挖 <span class=\"bem\">BEM</span>",
- "hero.lede":"代币的每一笔交易都会缴纳 BNB 税。BEM Rig 金库把这些 BNB 在 PancakeSwap 换成 $BEM，并在 7 天内持续释放给持有 5 台及以上矿机的钱包。",
+ "hero.lede":"代币的每一笔交易都会缴纳 BNB 税。Hash Farm 金库把这些 BNB 在 PancakeSwap 换成 $BEM，并在 7 天内持续释放给持有 5 台及以上矿机的钱包。",
  "hero.connect":"连接钱包查看矿机","hero.mine":"查看我的矿机","hero.how":"了解运作方式",
- "ca.label":"官方合约","ca.searching":"正在查找官方代币…","ca.found":"链上已验证：由 BEM Rig 团队通过 BEM Rig 工厂发行",
+ "ca.label":"官方合约","ca.searching":"正在查找官方代币…","ca.found":"链上已验证：由 Hash Farm 团队通过 Hash Farm 工厂发行",
  "ca.none":"尚未发行。代币创建后，官方合约地址会立即显示在这里。","ca.copy":"复制","ca.flap":"在 Flap 交易 ↗",
  "tele.total":"矿机总数","tele.mining":"挖矿中的矿机","tele.perday":"每日产出 BEM","tele.pending":"待兑换的 BNB 税",
  "mode.live":"实时数据 · BNB Chain","mode.demo":"示例数据","hint.demo":"官方代币上线前显示示例数据。","hint.live":"金库 {v} · 代币 {s}","hint.err":"暂时无法读取金库（{e}），显示示例数据。",
@@ -577,7 +577,7 @@ zh:{
  "guide.eyebrow":"教程","guide.h2":"6 步开始挖矿",
  "g1.t":"准备钱包","g1.d":"使用 MetaMask、OKX、Binance Wallet 或其他兼容钱包。切换到 BNB Smart Chain，并预留少量 BNB 作为 Gas。",
  "g2.t":"购买代币","g2.d":"使用上方的官方合约地址在 Flap 购买官方代币。每一笔买卖都会把 BNB 税缴入金库，这是所有 BEM 的来源。",
- "g3.t":"连接钱包","g3.d":"点击右上角的连接钱包。BEM Rig 会读取你的代币余额、矿机数量和待领取的 BEM。",
+ "g3.t":"连接钱包","g3.d":"点击右上角的连接钱包。Hash Farm 会读取你的代币余额、矿机数量和待领取的 BEM。",
  "g4.t":"购买 5 台以上","g4.d":"选择数量后点击销毁代币并购买矿机。首次会请求授权代币。达到 5 台后矿机开始运转。",
  "g5.t":"查看 BEM 流入","g5.d":"待领取 BEM 每秒增长。有新税收时，任何人都可以点击 Harvest，把税收换成 BEM 注入矿池。",
  "g6.t":"领取","g6.d":"随时点击领取 BEM。领取后矿机继续挖矿。",
@@ -591,7 +591,7 @@ zh:{
  "acct.connect":"连接钱包","acct.disconnect":"断开连接","acct.wrong":"网络错误","acct.switch":"切换到 BNB Chain",
  "t.connected":"已连接 {w}","t.rejected":"你拒绝了连接请求。","t.noAccount":"钱包未提供账户。","t.fail":"连接失败：{e}","t.disconnected":"已断开钱包。",
  "t.copied":"已复制","t.selected":"已选中，请按 Ctrl+C","t.noSwitch":"无法切换网络。","t.txRejected":"你拒绝了交易。",
- "t.bought":"已购买 {n} 台矿机","t.claimed":"已领取 BEM","t.harvested":"已把 BNB 税换成 BEM","t.notOurs":"注意：该金库不是由 BEM Rig 工厂创建。","t.lowBal":"{s} 余额不足：需要约 {q}",
+ "t.bought":"已购买 {n} 台矿机","t.claimed":"已领取 BEM","t.harvested":"已把 BNB 税换成 BEM","t.notOurs":"注意：该金库不是由 Hash Farm 工厂创建。","t.lowBal":"{s} 余额不足：需要约 {q}",
  "tx.wait":"{l}：请在钱包中确认…","tx.sent":"{l}：已发送 {h}，等待链上确认…","tx.ok":"{l}：已确认 ✓","tx.revert":"{l} 交易失败","tx.timeout":"{l}：仍在等待，请在 BscScan 查看","tx.err":"错误：{e}",
  "l.approve":"授权 {s}","l.buy":"购买 {n} 台矿机","l.claim":"领取 BEM","l.harvest":"Harvest",
  "e.Paused":"已暂停","e.Cooldown":"Harvest 冷却中，请过几个区块再试","e.Nothing to swap":"暂无可兑换的 BNB 税","e.Slippage":"价格波动过大，请重试",
@@ -651,7 +651,7 @@ const call = (to,data) => rpc("eth_call",[{to,data:"0x"+data},"latest"]);
 
 /* ───────── official CA detection ─────────
    Token = newest FlapTaxVaultTokenCreated event from the VaultPortal whose vaultFactory is
-   the BEM Rig factory and whose transaction was sent by the dev wallet (matched by hash). */
+   the Hash Farm factory and whose transaction was sent by the dev wallet (matched by hash). */
 async function isDevTx(txHash){
   const tx = await rpc("eth_getTransactionByHash",[txHash]);
   if(!tx || !tx.from) return false;
@@ -664,13 +664,13 @@ async function scanRange(from, to){
 }
 async function findOfficial(){
   if(isAddr(CFG.officialToken)) return CFG.officialToken;
-  const cached = store.get("bemrig.official");
+  const cached = store.get("hashfarm.official");
   if(isAddr(cached)) return cached;
   const latest = parseInt(await rpc("eth_blockNumber",[]),16);
   const CHUNK = 5000; let misses = 0;
   for(let to=latest; to>CFG.factoryDeployBlock && misses<3; to-=CHUNK){
     const from = Math.max(CFG.factoryDeployBlock, to-CHUNK+1);
-    try{ const tok = await scanRange(from, to); misses = 0; if(tok){ store.set("bemrig.official", tok); return tok; } }
+    try{ const tok = await scanRange(from, to); misses = 0; if(tok){ store.set("hashfarm.official", tok); return tok; } }
     catch(e){ misses++; }
   }
   return null;
